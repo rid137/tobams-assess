@@ -47,12 +47,12 @@ const BlogCard: React.FC<BlogCardProps> = ({
                         <p className="bg-gray h-3 w-[.10rem] rounded-sm"></p>
                         <p>{reading_time_minutes} mins read</p>
                     </div>
-                    <p
+                    <button
                         onClick={() => goToBlogDetails(id.toString())}
                         className="text-primary border-b border-primary text-sm cursor-pointer"
                     >
                         View Post
-                    </p>
+                    </button>
                 </div>
             </div>
         </article>
