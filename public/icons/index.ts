@@ -1,0 +1,12 @@
+export { default as LogoIcon } from './logo.svg';
+export { default as UserIcon } from './header/user.svg';
+export { default as ArrowDownBlackIcon } from './arrow-down-black.svg';
+export { default as SearchIcon } from './search.svg';
+export { default as ArrowDownLightIcon } from './header/arrow-down-light.svg';
+export { default as ArrowDownPrimaryIcon } from './header/arrow-down-primary.svg';
+export { default as TwitterIcon } from './footer/twitter.svg';
+export { default as MailIcon } from './footer/mail.svg';
+export { default as InstagramIcon } from './footer/instagram.svg';
+export { default as PhoneIcon } from './footer/phone.svg';
+export { default as LinkedInIcon } from './footer/linkedin.svg';
+export { default as ArrowLeftIcon } from './arrow-left.svg';

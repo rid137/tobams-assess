@@ -9,8 +9,26 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: {
+            DEFAULT: '#571244',
+          },
+          dark: {
+            DEFAULT: '#151515',
+            // 1: '#161313',
+            // 2: '#101828',
+            // 3: '#475467'
+          },
+          gray: {
+            DEFAULT: "#696969",
+            1: "#F9F9F9",
+            2: "#1515150F",
+          },
+          danger: {
+            DEFAULT: '#EF4353',
+          },
+      },
+      fontFamily: {
+        nunito: ["Nunito", "serif"],
       },
     },
   },
