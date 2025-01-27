@@ -12,8 +12,8 @@ const Hero = () => {
                 alt="Hero background image"
             />
             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 -z-40"></div>
-            <div className="flex items-center justify-center flex-col w-full h-full px-28">
-                <p className="text-white text-xl md:text-2xl lg:text-5xl font-semibold  text-center" style={{lineHeight: "4rem"}}>Stay Ahead Of The Curve: Stay Informed With Our Blog For The Latest Industry Insights</p>
+            <div className="flex items-center justify-center flex-col w-full h-full px-10 md:px-28">
+                <p className="text-white text-3xl lg:text-5xl font-semibold text-center !leading-[2.5rem] md:!leading-[4rem]">Stay Ahead Of The Curve: Stay Informed With Our Blog For The Latest Industry Insights</p>
                 <p className="text-white text-center mt-4">Insights that inspire success: uncover a wealth of knowledge by staying updated</p>
             </div>
         </div>

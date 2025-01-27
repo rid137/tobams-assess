@@ -67,7 +67,7 @@ const BlogDetails = ({ params }: { params: Promise<{ id: string }> }) => {
                         />
                     </div>
 
-                    <div className="mb-8">
+                    <div className="mb-8 overflow-hidden">
                         <RenderMarkdown content={blog?.body_markdown} bodyHtml={blog?.body_html} />
                     </div>
                 </>

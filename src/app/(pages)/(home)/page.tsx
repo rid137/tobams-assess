@@ -5,7 +5,7 @@ import BlogListing from '@/components/home/blog-listing';
 
 const page = () => {
   return (
-    <div>
+    <div className=''>
       <Hero />
       <BlogListing />
     </div>

@@ -10,3 +10,5 @@ export { default as InstagramIcon } from './footer/instagram.svg';
 export { default as PhoneIcon } from './footer/phone.svg';
 export { default as LinkedInIcon } from './footer/linkedin.svg';
 export { default as ArrowLeftIcon } from './arrow-left.svg';
+export { default as MenuIcon } from './menu.svg';
+export { default as XIcon } from './x.svg';
