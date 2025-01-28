@@ -15,7 +15,7 @@ const BlogListing = () => {
     // Fetch blogs using context API
     const { blogs , isPending, isError } = UseBlogContext();
     // Filter search
-    const filteredBlogs = blogs?.slice(22, 28)?.filter((blogs) => searchValue.toLowerCase() === "" ? blogs : blogs?.title?.toLowerCase().includes(searchValue.toLowerCase()))
+    const filteredBlogs = blogs?.slice(24, 30)?.filter((blogs) => searchValue.toLowerCase() === "" ? blogs : blogs?.title?.toLowerCase().includes(searchValue.toLowerCase()))
     
 
     return (
